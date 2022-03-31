@@ -1,0 +1,127 @@
+body{
+	font-size:16px;
+	font-family:sans-serif;
+	color:#fff;
+	margin: 0px;
+	background-color:#d4dada;
+}
+
+div{
+	box-sizing:border-box;
+}
+
+h1{
+	font-size:47px;
+	margin:0 0 20px 0;
+}
+
+p{
+	font-size:18px;
+	line-height:1.2em;
+	margin:0px;
+}
+
+button{
+	background-color:#FF9900;
+	color:#232F3E;
+	font-size:1em;
+	padding:10px 20px;
+	border:0px;
+	min-width: 160px;
+}
+
+.container{
+	width:100%;
+	position:relative;
+}
+
+.hero{
+	background:#FBFBFB;
+	display: flex;
+    align-items: center;
+	width: 100%;
+	min-height:368px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.content{
+	width: 100%;
+	max-width:1200px;
+	margin:0 auto;
+	padding: 0px 15px;
+	position: relative;
+}
+
+.col_50{
+	width:50%;
+	padding: 0px 15px;
+	display: block;
+}
+
+.smb-hub{
+	background-image: url('./images/block_a.png');
+	background-position: bottom center;
+	padding:50px 0;
+}
+
+.marketo{
+	background-image: url('./images/marketo-test.png');
+	background-position: center center;
+}
+
+.feature_box{
+	background-color:#232F3E;
+	border-radius:5px; 
+	padding:40px;
+}
+
+.subheading{
+	padding-bottom:15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.content{
+	max-width:720px;
+
+}
+
+h1{
+	font-size:40px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.content{
+		max-width:720px;
+	}
+
+	h1{
+		font-size:40px;
+	}
+	
+	.col_50{
+		width:100%;
+	}
+
+}
+
+
+@media only screen and (max-width: 667px) {
+
+	.content{
+		max-width:720px;
+	}
+
+	h1{
+		font-size:32px;
+	}
+	
+	.col_50{
+		width:100%;
+	}
+
+}
