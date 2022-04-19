@@ -93,6 +93,13 @@ button{
     max-height: 312px;
 }
 
+.marketo.block-2 {
+    background-image: url('./images/lp-block-hero_1440x368-safe-zone.png');
+    background-position: center center;
+    min-height: 312px;
+    max-height: 312px;
+}
+
 .feature_box{
 	background-color:#232F3E;
 	border-radius:5px; 
